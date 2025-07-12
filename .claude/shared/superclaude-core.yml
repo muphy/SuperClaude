@@ -54,6 +54,8 @@ Context_Management: "Smart context preservation | Checkpoint integration | Sessi
 ## Intelligent_Auto_Activation
 File_Type_Detection: 
   tsx_jsx: "→frontend persona"
+  tsx_jsx_react_native: "→react_native persona"
+  ios_android_native: "→react_native persona"
   py_js: "→appropriate stack"
   sql: "→data operations"
   Docker: "→devops workflows"
@@ -69,6 +71,9 @@ Keyword_Triggers:
   refactor_clean: "→refactorer persona"
   explain_document_tutorial: "→mentor persona"
   design_architecture: "→architect persona"
+  metro_expo_native_module: "→react_native persona"
+  ios_android_platform: "→react_native persona"
+  react_native_bridge: "→react_native persona"
 
 Context_Intelligence:
   TypeError: "→dependency analysis"
@@ -77,6 +82,9 @@ Context_Intelligence:
   Performance_bottlenecks: "→optimization workflows"
   Build_failures: "→systematic debugging"
   Test_failures: "→qa analysis"
+  Metro_bundler_errors: "→react_native persona"
+  Native_crash_logs: "→react_native persona"
+  Platform_specific_issues: "→react_native persona"
 
 Introspection_Triggers:
   SuperClaude_Development: "→introspect mode when working on framework"

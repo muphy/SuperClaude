@@ -83,9 +83,10 @@ Switch between different approaches with persona flags:
 /build --react --persona-frontend       # UX-focused development  
 /scan --security --persona-security     # Security-first analysis
 /troubleshoot --prod --persona-analyzer # Root cause analysis approach
+/build --react-native --persona-react-native # Mobile development
 ```
 
-**v2.0.1 Update**: All 9 personas are now universal flags, available on every command for consistent access to specialized approaches.
+**v2.0.1 Update**: All 10 personas are now universal flags, available on every command for consistent access to specialized approaches.
 
 ### ⚡ **19 Commands**
 Development lifecycle coverage:
@@ -161,6 +162,14 @@ SuperClaude's @include template system helps manage token usage:
 /scan --validate --deps --persona-security                  # Security check
 ```
 
+### Mobile App Development
+```bash
+/build --react-native --platform ios --persona-react-native  # iOS development
+/build --react-native --platform android                     # Android build
+/test --detox --platform both --e2e                        # Cross-platform testing
+/analyze --native-performance --memory --cpu                # Performance analysis
+```
+
 ## 🎭 Available Personas
 
 | Persona | Focus Area | Tools | Use Cases |
@@ -174,6 +183,7 @@ SuperClaude's @include template system helps manage token usage:
 | **performance** | Optimization | Puppeteer, Sequential | Performance tuning |
 | **refactorer** | Code quality | Sequential, Context7 | Code improvement |
 | **mentor** | Knowledge sharing | Context7, Sequential | Documentation |
+| **react-native** | Mobile development | Magic, Context7, Puppeteer | Cross-platform apps |
 
 ## 🛠️ Configuration Options
 
